@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:200,400|Playfair+Display');
+body {
+  background-color: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  float: left;
+  width: 30%;
+  min-width: 300px;
+  background-color: #3c436d;
+  margin: 1.5%;
+  padding: 2em 1em;
+  box-sizing: border-box;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+.wrapper>h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: .15em;
+  color: #333;
+}
+.details {
+  width: 95%;
+  margin: 0 auto 2em;
+  padding-top: 10.5em;
+  padding-bottom: 1em;
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+  transition: all ease-in 0.15s;
+}
+
+.wrapper:hover .details{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 5px rgba(0,0,0,0.22);
+  transform: translate(0px, -2px) scale(1.01);
+}
+
+.details>h1 {
+  font-family: "Playfair Display";
+  font-size: 1em;
+  color: white;
+}
+.details>h2 {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+.details>p {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.image{
+  position: relative;
+  z-index: 2;
+  width: 85%;
+  height: 250px;
+  margin: 0 auto -10em;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+  transition: all ease-in .15s;
+}
+.wrapper:hover .image{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: translate(0px, -3px) scale(1.02);
+}
+  
+.i1{
+    background-image: url('../images/ella.jpg');
+}
+.i2 {
+  background-image: url('../images/galle.jpg');
+}
+.i3 {
+  background-image: url('../images/hikkaduwa.jpg');
+  }
+.i4 {
+    background-image: url('../images/kandalama.jpg');
+    }
+ .i5 {
+      background-image: url('../images/mountBlue.jpg');
+      }
+  .i6 {
+        background-image: url('../images/yala.jpg');
+     }
+
+@media screen and (max-width: 1000px) {
+  .wrapper{
+    width: 47%;
+  }
+}
+@media screen and(max-width:700px){
+  .wrapper{
+    float: none;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+@media screen and(max-width:700px){
+  .wrapper{
+    float: none;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .wrapper{
+    width: 47%;
+  }
+}
+@media screen and(max-width:700px){
+  .wrapper{
+    float: none;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+@media screen and(max-width:700px){
+  .wrapper{
+    float: none;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
